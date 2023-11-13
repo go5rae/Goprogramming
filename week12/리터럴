@@ -1,0 +1,27 @@
+리터럴 = 값 
+a = 3 + 4 
+a는 변수
+3 + 4는 리터럴
+
+[] int {9, 18, 27}  << 슬라이스 리터럴
+
+notes:= []string("do", "re", "mi", "fa", "so", "la", "ti")  << 슬라이스 리터럴
+
+primes := []int{
+		2,
+		3,			<< 슬라이스 리터럴
+		5,
+}
+
+main() {
+	numbers := _____(__float64, __)
+	numbers____ = 19.7
+	numbers[2] =25.2
+	for i, ______ := range numbers {
+		fmt.Println(i, number)
+	}
+	var letters = __string____________
+	for i, letter := range letters {
+		fmt.Println(i, _______)
+	}
+}
